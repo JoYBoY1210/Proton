@@ -1,0 +1,20 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import BuildPage from './assets/Pages/BuildPage'
+
+function App() {
+  
+
+  return (
+    <div className="w-full h-full transition-colors duration-500 ease-in-out dark:bg-gray-900">
+
+      <BuildPage />
+
+    </div>
+  )
+}
+
+export default App
+
