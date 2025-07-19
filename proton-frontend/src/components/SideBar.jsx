@@ -1,4 +1,5 @@
 import React from "react";
+import Dropdown from "./Dropdown";
 
 export default function Sidebar({onAddNode}) {
   const buttonClasses = (bgColor, hoverBgColor, textColor = 'text-white') =>
@@ -10,9 +11,7 @@ export default function Sidebar({onAddNode}) {
       <h2 className="font-semibold text-2xl mb-2">Tools</h2>
 
       <div className="space-y-4 mt-4">
-        <button className={buttonClasses('bg-blue-600', 'hover:bg-blue-500')} onClick={onAddNode}>
-          + Add Node
-        </button>
+        <Dropdown onAddNode={onAddNode} />
         <button className={buttonClasses('bg-emerald-600', 'hover:bg-emerald-500')}>
           💾 Save
         </button>

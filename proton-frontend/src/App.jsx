@@ -9,7 +9,7 @@ function App() {
   
 
   return (
-    <div className="w-full h-full transition-colors duration-500 ease-in-out dark:bg-gray-900">
+    <div className="w-full h-full  ease-in-out dark:bg-gray-900">
 
       <BuildPage />
 
